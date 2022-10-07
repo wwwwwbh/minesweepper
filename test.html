@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/form.css"></head>
+</head>
+<body>
+    <button class="showForm">showform</button>
+    <button class="getrank">showRank</button>
+    <div class="rankArea"></div>
+    <div class="container">
+        <div>您的用时是:<span class="costtime">10.00</span>s</div>
+        <div>留下您的昵称:</div>
+        <input type="text" class="username">
+        <div>请选择您的头像:</div>
+        <div class="view">
+            <input id="uploadimg" type="file" accept="image/*" />
+            <!-- 上传成功后 -->
+            <div id="imgContainer" class="img-container">
+                <img id="img" />
+                <!-- 鼠标移入展示 查看 与 删除 操作 -->
+                <div class="img-mask">
+                    <span id="delImg">删除</span>
+                </div>
+            </div>
+            <!-- 上传成功前 -->
+            <span id="icon">+</span>
+        </div>
+        <button class="join">加入排行榜</button>
+        <button class="close">关闭</button>
+    </div>
+</body>
+<script src="./js/form.js"></script>
+</html>

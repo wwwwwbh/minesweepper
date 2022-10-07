@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container {
+    margin: 0 auto;
+
+} */
+h3 {
+    text-align: center;
+    font-weight: 100;
+    margin: 30px auto 20px auto;
+}
+
+.level {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.level button {
+    padding: 5px 15px;
+    background: #02a4ad;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.level button.active {
+    background-color: #00abff;
+}
+/* 显示信息相关 */
+.statusinfo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.mineinfo {
+    width: 5rem;
+    height:1.5rem;
+    font-size: 5px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+.mineinfo .mineNum {
+    font-size: 5px;
+    font-weight: 1000;
+    color: red;
+}
+.flaginfo {
+    width: 5rem;
+    height:1.5rem;
+    font-size: 5px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+.flaginfo .flagNum {
+    font-size: 5px;
+    font-weight: 1000;
+    color: green;
+}
+.gamestatus {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.gaming {
+    background: #ccc url("../images/smile.png") center/cover no-repeat;
+}
+
+.lose {
+    background: #ccc url("../images/bad.png") center/cover no-repeat;
+}
+.win {
+    background: #ccc url("../images/cool.png") center/cover no-repeat;
+}
+/* 表格相关 */
+table {
+    background-color: #929196;
+    margin: 0 auto;
+    border-spacing: 1px;
+}
+.assist {
+    text-align: center;
+    margin-top: 10px;
+    /* align-items: center; */
+}
+.autoOpen {
+    align-items: center;
+    background-color: rgb(219, 54, 54);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+.tipInfo {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    
+}
+.tipInfo>span {
+    font-weight: 1000;
+    color: rgb(219, 54, 54); 
+}
+
+table td {
+    width: 24px;
+    height: 24px;
+    background: #ccc;
+    border: 2px solid;
+    border-color: #fff #a1a1a1 #a1a1a1 #fff;
+    text-align: center;
+    line-height: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+td>div{
+    width: 100%;
+    height: 100%;
+}
+
+/* 地雷 */
+td>div.mine{
+    background : #ccc url("../images/mine.png") center/cover no-repeat;
+    opacity: 0;
+}
+/* 显示小旗子 */
+td>div.flag{
+    background : #ccc url("../images/flag.png") center/cover no-repeat;
+    opacity: 1;
+}
+td>div.error{
+    background : red url("../images/error.png") center/cover no-repeat;
+    opacity: 1;
+}
+
+td>div.back{
+    background : #ccc url("../images/background.png") center/cover no-repeat;
+    opacity: 0.3;
+}
+td>div.number1{
+    background : #ccc url("../images/number1.png") center/cover no-repeat;
+    opacity: 1;
+}
+td>div.number2{
+    background : #ccc url("../images/number2.png") center/cover no-repeat;
+    opacity: 1;
+}
+td>div.number3{
+    background : #ccc url("../images/number3.png") center/cover no-repeat;
+    opacity: 1;
+}
+td>div.number4{
+    background : #ccc url("../images/number4.png") center/cover no-repeat;
+    opacity: 1;
+}
+td>div.number5{
+    background : #ccc url("../images/number5.png") center/cover no-repeat;
+    opacity: 1;
+}
+td>div.number6{
+    background : #ccc url("../images/number6.png") center/cover no-repeat;
+    opacity: 1;
+}
+td>div.number7{
+    background : #ccc url("../images/number7.png") center/cover no-repeat;
+    opacity: 1;
+}
+td>div.number8{
+    background : #ccc url("../images/number8.png") center/cover no-repeat;
+    opacity: 1;
+}
