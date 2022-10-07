@@ -8,6 +8,7 @@ The core of select mines: shuffle an Array with total number of grids and select
 Draw grids: set the left and top borders light shadow, the right and bottom borders deep shallow to get the 3d visual effect.
 Open the grids: if have mines around, just open the current grid, else open the around grids by recursion.
 Auto open grid in the normal and diffcult: Find a grid without mines and open it. It is promised that the grids have a position without mines around when creating. 
+The opned grids will have a img to overlap. They are added or removed by the dynamic class styles.
 Auto Flag: check the number of grids with out flag.
 The help of auto open grid: just find the first grid without mine and open it. It can be random.
 The condition of win: all of the grids without flag are opened and all of the grids with mines are falged.
