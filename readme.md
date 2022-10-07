@@ -1,6 +1,6 @@
 A simple minesweeper by pure js.
 
-Visit the game online 
+Visiting the game online 
 http://81.68.153.205/
 
 
