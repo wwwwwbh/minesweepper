@@ -10,7 +10,7 @@ Draw grids: set the left and top borders light shadow, the right and bottom bord
 
 Open the grids: if have mines around, just open the current grid, else open the around grids by recursion.
 
-Auto open grid in the normal and diffcult: Find a grid without mines and open it. It is promised that the grids have a position without mines around when creating.
+Auto open grid at the degree of the normal and hard: Find a grid without mines and open it. It is promised that the grids have a position without mines around when creating.
 
 The opned grids will have a img to overlap. They are added or removed by the dynamic class styles.
 
