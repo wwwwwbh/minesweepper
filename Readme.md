@@ -15,3 +15,5 @@ How to overcome these shortcomings:
 Plans:
 1. Adding ranklist for each difficulty.
 2. Multi player online competition (broadcasting information by websocket).
+
+![S~2AF$@E3IBLP9UELLS9`J5](https://user-images.githubusercontent.com/52645159/194590335-ed3428ca-5c4b-4455-889d-1e5e80576588.png)
