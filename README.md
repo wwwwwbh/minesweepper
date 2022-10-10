@@ -1,7 +1,7 @@
 A simple minesweeper by pure js.
 
 Visiting the game online 
-http://81.68.153.205/
+http://81.68.153.205:8020/
 
 Function:
 The core of select mines: shuffle an Array with total number of grids and select the and select the front specified number as mines.
@@ -12,7 +12,7 @@ Open the grids: if have mines around, just open the current grid, else open the 
 
 Auto open grid at the degree of the normal and hard: Find a grid without mines and open it. It is promised that the grids have a position without mines around when creating.
 
-The opned grids will have a img to overlap. They are added or removed by the dynamic class styles.
+The opned grids will have an image to overlap. They are added or removed by the dynamic class styles.
 
 Auto Flag: check the number of grids with out flag.
 
