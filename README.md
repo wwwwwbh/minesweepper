@@ -1,7 +1,7 @@
 A simple minesweeper by pure js.
 
 Visiting the game online 
-http://81.68.153.205:8020/
+bingowu.cn:8020/
 
 Function:
 The core of select mines: shuffle an Array with total number of grids and select the and select the front specified number as mines.
